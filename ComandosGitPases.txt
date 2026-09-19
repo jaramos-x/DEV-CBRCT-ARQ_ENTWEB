@@ -1,0 +1,21 @@
+Comandos git PASES:
+-------------------
+# PASO 1: Ubicarte en tu directorio
+cd /d/DEV/java-lab
+
+# PASO 2: Descargar lo último de la nube (Previene choques y conflictos de versión)
+git pull origin main
+
+--AGREGAMOS EL NUEVO ARCHIVO
+
+# PASO 3: Revisar el estado de los archivos editados/agregados
+git status
+
+# PASO 4: Enviar cambios al Staging Area (Bandeja de preparación)
+git add .
+
+# PASO 5: Confirmar la versión con un mensaje descriptivo
+git commit -m "feat: descripcion del cambio o nuevo modulo agregado"
+
+# PASO 6: Subir la nueva versión a GitHub
+git push origin main
