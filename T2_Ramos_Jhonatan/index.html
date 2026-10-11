@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Librería Universitaria</title>
+  <link rel="stylesheet" href="estilosT2.css">
+</head>
+<body>
+
+    <!-- =======================================================
+     ALUMNO: Mireya Garcia
+     CURSO: Arquitectura de Entornos Web
+     ======================================================= -->
+ <!-- ==================== CABECERA ==================== -->
+  <header class="cabecera" id="cabecera">
+    <div class="cabecera-info">
+      <h1>Librería Universitaria</h1>
+      <p>Textos académicos, literatura y contenido multimedia</p>
+    </div>
+    <nav class="cabecera-menu">
+      <a href="#libros">Libros</a>
+      <a href="#nosotros">Acerca de</a>
+      <a href="#multimedia">Multimedia</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+
+  <div class="contenedor-principal">
+    <section class="seccion-productos" id="libros">
+      <h2>Libros destacados</h2>
+      <p class="descripcion-seccion">Descubre nuestra selección bibliográfica">
+        <!--tarjeta 1-->
+        <article class="tarjeta">
+          <span class="badge-nuevo">Nuevo</span>
+          <div class="tarjeta-img-contenedor">
+            <img src="imagenes/libro_3.jpg" alt="Libro Físico Química">
+          </div>
+          <div class="tarjeta-cuerpo">
+            <h3>Físico Química</h3>
+            <p>Texto universitario fundamental para el estudio de ciencias e ingeniería.</p>
+            <button class="btn-verde">Agregar</button>
+          </div>
+        </article>
+        <!--tarjeta 2-->
+        <article class="tarjeta">
+          <div class="tarjeta-img-contenedor">
+            <img src="imagenes/libro_2.jpg" alt="Libro Física II">
+          </div>
+          <div class="tarjeta-cuerpo">
+            <h3>Física II</h3>
+            <p>Segunda edición con enfoque por competencias y problemas resueltos.</p>
+            <button class="btn-verde">Agregar</button>
+          </div>
+        </article>
+      </div>
+    </section>
+    <aside class="aside-lateral" id="nosotros">
+      <h3>Acerca de la Librería</h3>
+      <p>Proveemos textos académicos, guías de estudio y material universitarios.</p>
+    </aside>
+  </div>
+
+  <section class="seccion-multimedia" id="multimedia">
+    <h2>Audio y video</h2>
+
+    <div class="contenedor-multimedia">
+      <div class="caja-media">
+        <h3>El Monje Negro - Audiolibro</h3>
+        <p>Escucha la narración de la obra clásica de Antón Chéjov.</p>
+        <audio controls class="reproductor-audio">
+          <source src="audios/El_monje_negro.mp3" type="audio/mpeg">
+          Tu navegador no soporta el formato de audio.
+        </audio>
+      </div>
+
+      <div class="caja-media">
+        <h3>El Principito - multimedia</h3>
+        <p>Cortometraje - material audiovisual</p>
+        <div class="video-contenedor">
+          <video controls class="reproductor-video">
+            <source src="videos/El_principito.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== FOOTER ==================== -->
+ <footer class="pie-pagina" id="contacto">
+    <!-- Redes sociales-->
+    <div class="redes-sociales">
+      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <img src="imagenes/twitter.png" alt="Twitter" class="icono-red">
+      </a>
+      <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+        <img src="imagenes/youtube.png" alt="YouTube" class="icono-red">
+      </a>
+    </div>
+
+    <p>Librería Universitaria derechos reservados.</p>
+    <a href="#cabecera" target="_blank" rel="noopener noreferrer" class="link-volver">Volver al inicio</a>
+  </footer>
+
+</body>
+</html>
