@@ -1,270 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sancho Patas | Veterinaria</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f5ee">
+  <meta name="description" content="Sancho Patas: cuidado veterinario cercano, responsable y lleno de cariño para tus compañeros de vida.">
+  <title>Sancho Patas | Cuidado que se siente como hogar</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  <!-- NAVEGACIÓN -->
-  <header class="navbar">
-    <div class="container nav-container">
-      <a href="#inicio" class="logo">
-        <span class="logo-badge">SP</span>
-        <span class="logo-text">SANCHO PATAS</span>
-      </a>
-      <nav class="nav-links">
-        <a href="#inicio">Inicio</a>
-        <a href="#nosotros">Nosotros</a>
-        <a href="#sedes">Sedes</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#agendar">Domicilio</a>
-        <a href="#contacto">Contacto</a>
-      </nav>
-      <a href="#agendar" class="btn btn-primary">Agendar cita</a>
+  <div class="topline"><span>✳</span> Cuidamos a quienes hacen más bonito tu día <span class="topline-dot">•</span> Atención con cariño en cada etapa</div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Sancho Patas, inicio"><span class="brand-mark">🐾</span><span><strong>sancho patas</strong><small>CLÍNICA VETERINARIA</small></span></a>
+      <nav class="nav-links" aria-label="Navegación principal"><a href="#nosotros">Nosotros</a><a href="#servicios">Servicios</a><a href="#sedes">Sedes</a><a href="#contacto">Contacto</a></nav>
+      <a class="button button-dark nav-cta" href="#agendar">Agendar una cita <span>↗</span></a>
     </div>
   </header>
-
   <main>
-    <!-- HERO / INICIO COMPACTO Y ORGÁNICO -->
-    <section id="inicio" class="hero-section">
-      <!-- Huellitas sutiles de fondo -->
-      <div class="paw-bg paw-1">🐾</div>
-      <div class="paw-bg paw-2">🐾</div>
-      <div class="paw-bg paw-3">🐾</div>
-      <div class="paw-bg paw-4">🐾</div>
-
-      <div class="container hero-content-top">
-        <span class="hero-domain">
-          <span class="domain-dot"></span> veterinaria123.pe
-        </span>
-        <h1 class="hero-title">Su bienestar es <span class="highlight-text">nuestra prioridad</span></h1>
-        <p class="hero-desc">
-          Atención veterinaria cercana, moderna y con amor para cada etapa de tu mascota.
-        </p>
-        <div class="hero-buttons">
-          <a href="#agendar" class="btn btn-coral">Agendar cita</a>
-          <a href="#servicios" class="btn btn-teal">Ver servicios</a>
-        </div>
+    <section class="hero" id="inicio">
+    <div class="container hero-inner">
+      <div class="hero-heading">
+        <span class="eyebrow"><i></i> VETERINARIA SANCHO PATAS</span>
+        <h1>Trabajamos contigo<br>por la salud de tu mascota.</h1>
+        <p>Cuidado veterinario cercano, con cariño en cada etapa de su vida.</p>
+        <div class="hero-actions"><a class="button button-coral" href="#agendar">Agendar una cita <span>↗</span></a><a class="hero-secondary" href="#servicios">Conoce nuestros servicios <span>↓</span></a></div>
       </div>
-
-      <!-- GRUPO COMPACTO DE PERRITOS -->
-      <div class="sandiego-stage">
-        <div class="sandiego-dogs-track">
-          <!-- Perro izquierda -->
-          <div class="dog-frame dog-side-left">
-            <img src="img/dog1.png" alt="Perrito con vincha" class="sandiego-dog-img">
-          </div>
-          <!-- Perritos dobles -->
-          <div class="dog-frame dog-mid-left">
-            <img src="img/dog2.png" alt="Dos Schnauzer" class="sandiego-dog-img">
-          </div>
-          <!-- Husky Central -->
-          <div class="dog-frame dog-main-center">
-            <img src="img/dog3.png" alt="Husky sonriente" class="sandiego-dog-img">
-          </div>
-          <!-- Perro derecha -->
-          <div class="dog-frame dog-side-right">
-            <img src="img/dog4.png" alt="Perrito" class="sandiego-dog-img">
-          </div>
-        </div>
-
-        <!-- Base integrada -->
-        <div class="slogan-bar">
-          <span class="slogan-pill">CUIDADO</span>
-          <span class="dot-sep">•</span>
-          <span class="slogan-pill">CONFIANZA</span>
-          <span class="dot-sep">•</span>
-          <span class="slogan-pill">CERCANÍA</span>
-        </div>
+      <div class="hero-dogs" aria-label="Nuestros pacientes felices">
+        <div class="hero-dog dog-one"><img src="img/dog2.png" alt="Dos perritos listos para su visita veterinaria"></div>
+        <div class="hero-dog dog-two"><img src="img/dog1.png" alt="Perrito pequeño con ropa colorida"></div>
+        <div class="hero-dog dog-three"><img src="img/dog3.png" alt="Perrito sonriente con suéter rojo"></div>
+        <div class="hero-dog dog-four"><img src="img/dog4.png" alt="Perrito con bandana morada"></div>
       </div>
-    </section>
-
-    <!-- NOSOTROS -->
-    <section id="nosotros" class="section bg-light">
-      <div class="container">
-        <div class="section-header">
-          <span class="badge">NUESTRA HISTORIA</span>
-          <h2>Una historia de cuidado y compromiso</h2>
-          <p>Cuidar también es escuchar. Un espacio pensado para acompañar a las familias y sus mascotas con atención responsable, información clara y trato humano.</p>
-        </div>
-        <div class="grid grid-3 values-grid">
-          <div class="card value-card">
-            <h3>MISIÓN</h3>
-            <p>Brindar atención veterinaria accesible y confiable.</p>
-          </div>
-          <div class="card value-card">
-            <h3>VISIÓN</h3>
-            <p>Ser un referente de cuidado y prevención.</p>
-          </div>
-          <div class="card value-card">
-            <h3>PASIÓN</h3>
-            <p>El bienestar animal guía cada decisión.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SEDES -->
-    <section id="sedes" class="section">
-      <div class="container">
-        <div class="section-header">
-          <span class="badge">PRESENCIA LOCAL</span>
-          <h2>Estamos cerca de ti</h2>
-          <p>Conoce nuestras sedes acondicionadas para brindar la mejor atención.</p>
-        </div>
-        <div class="grid grid-3">
-          <div class="card branch-card">
-            <span class="branch-number">01</span>
-            <h3>Sede 01</h3>
-            <p class="branch-focus">Atención veterinaria</p>
-            <p class="branch-meta">Dirección · Horarios · Contacto</p>
-            <a href="#contacto" class="link-btn">Ver sede →</a>
-          </div>
-          <div class="card branch-card">
-            <span class="branch-number">02</span>
-            <h3>Sede 02</h3>
-            <p class="branch-focus">Consulta y servicios</p>
-            <p class="branch-meta">Dirección · Horarios · Contacto</p>
-            <a href="#contacto" class="link-btn">Ver sede →</a>
-          </div>
-          <div class="card branch-card">
-            <span class="branch-number">03</span>
-            <h3>Sede 03</h3>
-            <p class="branch-focus">Cuidado integral</p>
-            <p class="branch-meta">Dirección · Horarios · Contacto</p>
-            <a href="#contacto" class="link-btn">Ver sede →</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SERVICIOS -->
-    <section id="servicios" class="section bg-light">
-      <div class="container">
-        <div class="section-header">
-          <span class="badge">NUESTROS SERVICIOS</span>
-          <h2>Atención integral para tu mascota</h2>
-          <p>Servicios especializados con la tecnología y dedicación que ellos merecen.</p>
-        </div>
-        <div class="grid grid-2">
-          <div class="card service-card">
-            <div class="service-content">
-              <h3>Consulta médica</h3>
-              <p>Evaluación, prevención y seguimiento veterinario personalizado.</p>
-            </div>
-            <a href="#agendar" class="circle-btn" aria-label="Ir a consulta médica">→</a>
-          </div>
-          <div class="card service-card">
-            <div class="service-content">
-              <h3>Cirugía</h3>
-              <p>Procedimientos quirúrgicos con atención e instrumental especializado.</p>
-            </div>
-            <a href="#agendar" class="circle-btn" aria-label="Ir a cirugía">→</a>
-          </div>
-          <div class="card service-card">
-            <div class="service-content">
-              <h3>Farmacia</h3>
-              <p>Medicamentos garantizados y orientación para el cuidado en casa.</p>
-            </div>
-            <a href="#agendar" class="circle-btn" aria-label="Ir a farmacia">→</a>
-          </div>
-          <div class="card service-card">
-            <div class="service-content">
-              <h3>Laboratorio</h3>
-              <p>Análisis clínicos rápidos y precisos que apoyan el diagnóstico certero.</p>
-            </div>
-            <a href="#agendar" class="circle-btn" aria-label="Ir a laboratorio">→</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- AGENDAR Y DOMICILIO -->
-    <section id="agendar" class="section">
-      <div class="container booking-container">
-        <div class="booking-form-box">
-          <span class="badge">RESERVA ONLINE</span>
-          <h2>Agenda tu cita</h2>
-          <p>Déjanos tus datos y coordinaremos la atención rápidamente.</p>
-
-          <form class="appointment-form" onsubmit="event.preventDefault(); alert('Solicitud enviada con éxito');">
-            <div class="form-group">
-              <label for="owner-name">Nombre del responsable</label>
-              <input type="text" id="owner-name" placeholder="Escribe aquí…" required>
-            </div>
-            <div class="form-group">
-              <label for="pet-name">Nombre de la mascota</label>
-              <input type="text" id="pet-name" placeholder="Escribe aquí…" required>
-            </div>
-            <div class="form-group">
-              <label for="service">Servicio solicitado</label>
-              <input type="text" id="service" placeholder="Escribe aquí…" required>
-            </div>
-            <div class="form-group">
-              <label for="datetime">Fecha y horario preferido</label>
-              <input type="text" id="datetime" placeholder="Escribe aquí…" required>
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">Solicitar cita</button>
-          </form>
-        </div>
-
-        <div class="booking-side-boxes">
-          <div class="card emergency-box">
-            <h3>⚠️ ¿Es una emergencia?</h3>
-            <p>Comunícate de inmediato con nuestro equipo para recibir orientación sobre la atención de urgencia.</p>
-            <a href="tel:+51950847334" class="btn btn-emergency">Contactar ahora</a>
-          </div>
-
-          <div class="card home-box">
-            <h3>Atención a domicilio</h3>
-            <p>Una alternativa práctica y cómoda para mascotas que necesitan atención en casa.</p>
-            <a href="#contacto" class="btn btn-outline">Consultar cobertura</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACTO Y REDES -->
-    <section id="contacto" class="section bg-light">
-      <div class="container text-center">
-        <span class="badge">CANALES DIRECTOS</span>
-        <h2>Hablemos del cuidado de tu mascota</h2>
-        <p>Canales de contacto visibles y accesibles desde cualquier dispositivo.</p>
-
-        <div class="grid grid-3 social-grid">
-          <div class="card contact-card">
-            <h3>WhatsApp</h3>
-            <p>Atención directa y coordinación</p>
-            <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="btn btn-social">Abrir canal</a>
-          </div>
-          <div class="card contact-card">
-            <h3>Facebook</h3>
-            <p>Novedades y comunidad</p>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="btn btn-social">Abrir canal</a>
-          </div>
-          <div class="card contact-card">
-            <h3>Instagram</h3>
-            <p>Fotos, consejos y novedades</p>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="btn btn-social">Abrir canal</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container footer-content">
-      <p><strong>SANCHO PATAS</strong> · Cuidamos a quienes te acompañan</p>
-      <p class="copy">© 2026 Sancho Patas. Todos los derechos reservados.</p>
+      <div class="hero-dogline"><span>🐾</span> Salud, cariño y muchas colitas felices <span>🐾</span></div>
     </div>
-  </footer>
-
+  </section>
+    <section class="section intro" id="nosotros"><div class="container intro-grid"><div><span class="eyebrow eyebrow-coral">MÁS QUE UNA VETERINARIA</span><h2>Un equipo que también<br><em>los quiere como tú.</em></h2></div><div class="intro-copy"><p>Sabemos que detrás de cada mascota hay una historia y una familia. Por eso escuchamos, explicamos con claridad y cuidamos con respeto.</p><a class="under-link" href="#contacto">Ven a conocernos <span>↗</span></a></div></div><div class="container values-row"><article class="value-card"><span class="value-icon">♡</span><div><h3>Con cariño</h3><p>Un trato paciente, amable y sin apuros.</p></div></article><article class="value-card"><span class="value-icon icon-green">✳</span><div><h3>Con responsabilidad</h3><p>Recomendaciones claras para cada necesidad.</p></div></article><article class="value-card"><span class="value-icon icon-yellow">☼</span><div><h3>En familia</h3><p>Acompañamos a quienes más quieres.</p></div></article></div></section>
+    <section class="section services" id="servicios"><div class="container"><div class="section-heading"><div><span class="eyebrow eyebrow-green">LO QUE HACEMOS</span><h2>Todo para una vida<br><em>más saludable.</em></h2></div><p>Atención integral para cuidar su salud, prevenir y acompañarlos cuando más lo necesitan.</p></div><div class="service-grid"><article class="service-card service-peach"><span class="service-number">01</span><div class="service-icon">🩺</div><h3>Consulta veterinaria</h3><p>Chequeos, prevención y orientación para cada etapa.</p><a href="#agendar" aria-label="Agendar consulta veterinaria">↗</a></article><article class="service-card service-green"><span class="service-number">02</span><div class="service-icon">✚</div><h3>Cirugía</h3><p>Procedimientos con evaluación y seguimiento cuidadoso.</p><a href="#agendar" aria-label="Consultar por cirugía">↗</a></article><article class="service-card service-yellow"><span class="service-number">03</span><div class="service-icon">✿</div><h3>Farmacia</h3><p>Medicamentos y guía para continuar el cuidado en casa.</p><a href="#agendar" aria-label="Consultar por farmacia">↗</a></article><article class="service-card service-lilac"><span class="service-number">04</span><div class="service-icon">⌕</div><h3>Laboratorio</h3><p>Apoyo diagnóstico para tomar mejores decisiones.</p><a href="#agendar" aria-label="Consultar por laboratorio">↗</a></article></div></div></section>
+    <section class="section branches" id="sedes"><div class="container branch-layout"><div class="branch-intro"><span class="eyebrow eyebrow-coral">CERCA DE TU HOGAR</span><h2>Siempre hay un<br><em>lugar para ustedes.</em></h2><p>Visítanos en cualquiera de nuestras sedes. Nuestro equipo está listo para recibirlos.</p><a class="button button-dark" href="#contacto">Consultar direcciones <span>↗</span></a><div class="branch-doodle">🐾</div></div><div class="branch-list"><article class="branch-item"><span class="branch-index">01</span><div><h3>Sede 01</h3><p>Atención veterinaria</p><small>Dirección · Horario de atención</small></div><a href="#contacto" aria-label="Consultar sede 1">↗</a></article><article class="branch-item"><span class="branch-index">02</span><div><h3>Sede 02</h3><p>Consulta y servicios</p><small>Dirección · Horario de atención</small></div><a href="#contacto" aria-label="Consultar sede 2">↗</a></article><article class="branch-item"><span class="branch-index">03</span><div><h3>Sede 03</h3><p>Cuidado integral</p><small>Dirección · Horario de atención</small></div><a href="#contacto" aria-label="Consultar sede 3">↗</a></article><div class="branch-photo"><img src="img/dog2.png" alt="Dos perritos acompañándose"><p>Una visita tranquila<br>empieza con una bienvenida feliz.</p><span>♡</span></div></div></div></section>
+    <section class="booking" id="agendar"><div class="container booking-layout"><div class="booking-copy"><span class="eyebrow eyebrow-light">AQUÍ EMPIEZA SU CUIDADO</span><h2>¿Agendamos una<br><em>visita feliz?</em></h2><p>Cuéntanos un poquito y coordinaremos la cita contigo.</p><div class="booking-paw">🐾</div><div class="booking-contact"><span>¿Necesitas ayuda ahora?</span><a href="tel:+51950847334">Llámanos <b>+51 950 847 334</b></a></div></div><form class="booking-form" onsubmit="event.preventDefault(); alert('¡Gracias! Tu solicitud quedó lista para coordinar.');"><div class="form-title"><span>✳</span><div><h3>Solicita una cita</h3><p>Completa tus datos y te contactaremos.</p></div></div><label for="owner-name">Tu nombre</label><input id="owner-name" name="owner" autocomplete="name" placeholder="Ej. Camila García" required><label for="pet-name">Nombre de tu mascota</label><input id="pet-name" name="pet" placeholder="Ej. Luna" required><div class="form-row"><div><label for="service">¿Qué necesita?</label><select id="service" name="service" required><option value="" disabled selected>Elige un servicio</option><option>Consulta veterinaria</option><option>Cirugía</option><option>Farmacia</option><option>Laboratorio</option><option>Atención a domicilio</option></select></div><div><label for="datetime">Fecha preferida</label><input id="datetime" name="date" type="date" required></div></div><button class="button button-coral form-submit" type="submit">Solicitar cita <span>↗</span></button><small class="form-privacy">Al enviar, podremos comunicarnos contigo para coordinar.</small></form></div></section>
+    <section class="home-care"><div class="container home-care-inner"><span class="home-icon">⌂</span><div><span class="eyebrow eyebrow-green">UN POQUITO MÁS CERCA</span><h2>¿Prefieren quedarse en casa?</h2><p>Consulta por nuestro servicio de atención a domicilio y cobertura disponible.</p></div><a class="button button-outline" href="#contacto">Consultar cobertura <span>↗</span></a></div></section>
+    <section class="contact section" id="contacto"><div class="container contact-layout"><div><span class="eyebrow eyebrow-coral">HABLEMOS</span><h2>Estamos aquí<br><em>para ayudarte.</em></h2><p>Escríbenos por tu canal preferido. Te esperamos con muchas ganas de conocerlos.</p></div><div class="social-links"><a href="https://wa.me/51950847334" target="_blank" rel="noopener noreferrer"><span>◉</span><div><b>WhatsApp</b><small>Coordinemos su próxima visita</small></div><i>↗</i></a><a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><span>f</span><div><b>Facebook</b><small>Noticias y comunidad</small></div><i>↗</i></a><a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><span>◎</span><div><b>Instagram</b><small>Consejos y momentos lindos</small></div><i>↗</i></a></div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand footer-brand" href="#inicio"><span class="brand-mark">🐾</span><span><strong>sancho patas</strong><small>CLÍNICA VETERINARIA</small></span></a><p>Hecho con cariño para quienes nos mueven la cola. <span>♡</span></p><small>© 2026 Sancho Patas</small></div></footer>
 </body>
 </html>
+
